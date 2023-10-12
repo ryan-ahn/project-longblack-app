@@ -1,16 +1,26 @@
-# unit_webview_app
+# Webview App
 
-webview app
+![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/unit-webview-app)
 
-## Getting Started
+## Setting Stack
+- Framework : Flutter 
 
-This project is a starting point for a Flutter application.
+## Project Start
+1. flutter pud 설치
+```
+$ flutter pud get
+```
+2. cocoapod 설치
+```
+$ cd unit-webview-app/ios
+$ pod install
+```
+3. flutter 시작
+```
+$ flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Code Pattern
+- MVVM 패턴을 따름 (Model - View - ViewModel)
