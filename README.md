@@ -1,26 +1,12 @@
-# Webview App
+# Longblack Webview App
 
-![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Last Commit](https://img.shields.io/github/last-commit/ryan-ahn/unit-webview-app)
+<img src="https://storage.googleapis.com/ryan-ahn.appspot.com/public/longblack-app.png"/>
 
-## Setting Stack
-- Framework : Flutter 
+## Introduction
 
-## Project Start
-1. flutter pud 설치
-```
-$ flutter pud get
-```
-2. cocoapod 설치
-```
-$ cd unit-webview-app/ios
-$ pod install
-```
-3. flutter 시작
-```
-$ flutter run
-```
+- Summary: 간단한 웹뷰 앱을 만들어보자
+- Developer: Ryan(github.com/ryan-ahn)
 
-## Code Pattern
-- MVVM 패턴을 따름 (Model - View - ViewModel)
+## Technical stack
+
+- Core Framework : Flutter
